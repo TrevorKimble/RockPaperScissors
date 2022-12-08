@@ -1,0 +1,57 @@
+body{
+    border: solid;
+    background-color: black;
+}
+
+.s{
+    color:red;
+    text-align: center;
+}
+
+.display
+{
+     text-align: center;
+     color: white;
+     height: 70vh;
+    overflow-y: scroll;
+}
+
+h1
+{
+    color: red;
+    text-align: center;
+}
+
+.b
+{
+    text-align: center;
+}
+
+.b button{
+    background-color: red;
+}
+
+.b button:hover
+{
+    background-color: white;
+}
+
+.img{
+    animation: test 5s infinite;
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    position: fixed;
+}
+
+@keyframes test {
+    0% {background-image: url(https://media.tenor.com/kHcmsxlKHEAAAAAM/rock-one-eyebrow-raised-rock-staring.gif);}
+    50% {background-image: url(https://i.pinimg.com/originals/cb/f1/80/cbf1803a64123be5b627c00f49012dfd.gif);}
+    75% {background-image: url(https://gifdb.com/images/high/burn-paper-captain-holt-2yesz9pn7b0tw35s.gif);}
+    100% {background-image: url(https://media.tenor.com/kHcmsxlKHEAAAAAM/rock-one-eyebrow-raised-rock-staring.gif);}
+}
+
+.sfuff{
+    display: flex;
+}
